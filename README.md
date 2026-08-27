@@ -6,6 +6,7 @@ Open-source contributor focused on AI agents, multimodal learning, world models,
 
 | Project | Contribution | Pull Request |
 | --- | --- | --- |
+| [AReaL](https://github.com/areal-project/AReaL) | Prevented remote CPU-tensor leaks after RTensor deletion failures by propagating cleanup errors, retrying failed shards across steps, and preserving atomic pending state across legacy and v2 training controllers. | [Merged #1633](https://github.com/areal-project/AReaL/pull/1633) |
 | [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | Restored the correct Mistral3 processor-loading path for FLUX.2-dev while preserving the Qwen3/Klein tokenizer path. | [Merged #1628](https://github.com/modelscope/DiffSynth-Studio/pull/1628) |
 | [MiniCPM-V-CookBook](https://github.com/OpenSQZ/MiniCPM-V-CookBook) | Fixed later-turn image-placeholder handling in the official multimodal finetuning dataset pipeline. | [Merged #138](https://github.com/OpenSQZ/MiniCPM-V-CookBook/pull/138) |
 | [RAGFlow](https://github.com/infiniflow/ragflow) | Hardened shared agent message-reference parsing across canvas, invocation, message, documentation, and retrieval components. | [Merged #18666](https://github.com/infiniflow/ragflow/pull/18666) |
