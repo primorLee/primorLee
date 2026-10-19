@@ -2,7 +2,6 @@
 
 Open-source contributor focused on AI agents, multimodal learning, world models, and reliable machine-learning infrastructure.
 
-for PyArrow inputs in both `DMatrix` and `QuantileDMatrix`. | [Merged #12484](https://github.com/dmlc/xgboost/pull/12484) |
 
 ### Focus
 
